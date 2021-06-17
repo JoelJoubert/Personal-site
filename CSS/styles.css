@@ -1,0 +1,121 @@
+/*********************selectors*************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+ h1 {
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  line-height: 2;
+  margin: 0 auto 0 auto;
+}
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #3D84B8;
+  font-family: Arial;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-width: 7px;
+  width: 5%;
+  color: #C8C2BC;
+  margin: 75px auto;
+}
+div {
+  margin: 2rem 0;
+}
+p {
+  line-height: 2;
+}
+/****************class selectors***********************/
+
+.top-container {
+   background-color: #E4F9F5;
+   position: relative;
+   padding-top: 100px
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 300px;
+}
+.coding {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.Roshi {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.introduction {
+  width: 40%;
+  margin: 0 auto;
+}
+.button {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #66BFBF;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 2rem auto;
+}
+.button:hover {
+   background: #1E62D0;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px 0 20px;
+  margin: 0;
+  line-height: 3;
+}
+.footer-link {
+  display: inline-block;
+  width: 10%;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
